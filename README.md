@@ -1,8 +1,8 @@
-Group name: [Insert your group name ]
+Group name: [CODE-BENDERS]
 
-Group members: [Insert group members’ full names]
+Group members: [Molupe Ntoko, Songezo Binana, Ozimela Mzekandaba, Tjhejani(Banele) Mtsweni]
 
-Group mentor: [Insert your group mentor, if you have one (not mandatory)]
+Group mentor: [Salie Daanyaal]
 
 Project title: [Insert a title for your project ]
 
