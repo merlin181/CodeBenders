@@ -4,7 +4,7 @@ Group members: [Molupe Ntoko, Songezo Binana, Ozimela Mzekandaba, Tjhejani(Banel
 
 Group mentor: [Salie Daanyaal]
 
-Project title: [Insert a title for your project ]
+Project title: [WhackAMole]
 
 Project page: [https://github.com/merlin181/Mogura-Taiji/edit/main/README.md]
 
