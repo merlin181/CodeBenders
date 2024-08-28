@@ -1,6 +1,6 @@
 Group name: [CODE-BENDERS]
 
-Group members: [Molupe Ntoko, Songezo Binana, Ozimela Mzekandaba, Tjhejani(Banele) Mtsweni]
+Group members: [Molupe Ntoko, Songezo Binana, Ozimela Mzekandaba]
 
 Group mentor: [Salie Daanyaal]
 
