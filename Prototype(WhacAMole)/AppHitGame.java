@@ -28,7 +28,8 @@ public class AppHitGame {
         SingleButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                MusicPlayer.RunMusic("Background_Music.wav");
+                MusicPlayer.stopMusic(); // Stop any previously playing music
+		MusicPlayer.RunMusic("Background_Music.wav");
                 new MoleHitGame();
                 frame.dispose();
             }
