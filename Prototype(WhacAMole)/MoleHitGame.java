@@ -232,6 +232,7 @@ public class MoleHitGame {
             JButton button = (JButton) e.getSource();
             if (button.getIcon() == moleIcon) {
                 score += 10;
+		SoundEffects.playMoleHitSound(); // Add mole sound effect
 				if (score > highScore) {
 					highScore = score;
 					highScoreLabel.setText("High Score: " + highScore);
@@ -239,11 +240,14 @@ public class MoleHitGame {
                 scoreLabel.setText("Score: " + score);
                 button.setIcon(null);
             }  else if (button.getIcon() == clockIcon) {
-            time += 10;
+		    time += 10;
+		    SoundEffects.playPowerUpSound(); // Add power-up sound effect
             timeLabel.setText("Time: " + time);
             button.setIcon(null);
 			} else if (button.getIcon() == bombIcon) {
-				moleTimer.stop();
+		    SoundEffects.playBombSound(); // Add bomb sound effect
+		    moleTimer.stop();
+		    
                 bombTimer.stop();
 				clockTimer.stop();
 				timeTimer.stop();
